@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "Helvetica Neue Regular";
+    src: url(../fonts/helveticaneuecyr-light-webfont.eot);
+    src: url(../fonts/helveticaneuecyr-light-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/helveticaneuecyr-light-webfont.woff2) format('woff2'),
+         url(../fonts/helveticaneuecyr-light-webfont.woff) format('woff'),
+         url(../fonts/helveticaneuecyr-light-webfont.ttf) format('truetype'),
+         url(../fonts/helveticaneuecyr-light-webfont.svg#helveticaneuecyrlight) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+.wrapper{
+	font-family: "Helvetica Neue Regular", Tahoma;
+}
+/* NAVIGATION */
+ .menu{
+	background:  #006699; 
+	min-height: 38px;
+	}
+ .menu li{
+	float: right;
+}
+ .menu a{
+ 	padding: 0px 15px;
+	line-height: 38px;
+	color: #66ccff;
+	display: inline-block;
+	font-size: 15px;
+	}
+.underline{
+	text-decoration: underline;
+}
+.ola{
+     background: #87e0fd; /* Old browsers */
+     background: linear-gradient(to bottom, #87e0fd 0%,#007bc8 72%);
+     margin-right: 15px;
+     color: #fff;
+ }
+.ola a{
+ 	color: #fff;
+}
+ .menu a:hover{
+ 	color: #fff;
+ 	background-color: #4eabda;
+ 	}
+ .flag{
+ 	vertical-align: middle;
+ 	border-left: 1px solid #87e0fd;
+ 	padding-left: 10px;
+ 	margin-top: 5px;
+}
+/* CONTAINER */
+.container{
+	clear: both;
+}
+.cadastra-se{
+    width: 600px;
+	height: 62px;
+	margin-top: 214px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3px;
+	background: rgba(16, 24, 32, 0.75);
+}
+h1{
+	font-size: 24px;
+	color: #fff;
+	line-height:62px;
+	text-align: center;
+}
+/* REGISTRATION FORMS */
+.regisration{
+	width: 320px;
+	height: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 200px;
+	padding: 50px 140px;
+	background: rgba(16, 24, 32, 0.75);
+}
+.regisration__head{
+    width: 280px;
+	height: 147px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.registration__forms{
+	width: 280px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.line__left{
+float: left;
+position: absolute;
+border: 0;
+border-top: 2px solid #666666;;
+border-bottom: 1px solid #0f0e0e;
+color: #666666;
+margin-top: 52px;
+margin-left: 2px;
+width: 121px;
+}
+.line__right{
+float: right;
+border-top: 2px solid #666666;
+border-bottom: 1px solid #0f0e0e;
+border-left: 1px solid #666666;
+border-right: 1px solid #666666;
+width: 119px;
+margin-top: -54px;
+margin-right: 3px;
+}
+.ou{
+	display: block;
+	color: #999999;
+	padding: 45px 139px;
+	text-align: left;
+	margin-left: -11px;
+}
+
+.reg__data {
+	display: block;
+	width: 257px;
+	height: 35px;
+	margin-bottom: 17px;
+	background: #000;
+    border:none;
+    font: 16px "Helvetica Neue Regular",  Tahoma;
+    line-height: 35px;
+    padding-left:18px;
+    color: #bababa;
+    }
+.reg__data:focus{
+   
+	background-color: #1b5288;
+	color: #ccc;
+	-webkit-box-shadow: 0 2px 13px #5db0ff;
+	-moz-box-shadow: 0 2px 13px #5db0ff;
+	box-shadow: 0 2px 13px #5db0ff;
+   
+}
+
+ .submit__acc {
+ 	color: #fff;
+ 	font: 16px "Helvetica Neue Regular",  Tahoma;
+ 	margin: 23px 56px;
+    width: 151px;
+    height: 37px;
+    border-radius: 3px;
+    border: none;
+    background: #87e0fd; /* Old browsers */
+    background: linear-gradient(to bottom, #87e0fd 0%,#53cbf1 51%,#05abe0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.send_bike label{
+    color: #ccc;
+	font: 13px/21px "Helvetica Neue Regular", Tahoma;
+	background: transparent;
+}
+p{
+   	width: 312px;
+   	text-align: center;
+   	display: block;
+    color: #ccc;
+ 	font: 11px "Helvetica Neue Regular", Tahoma;
+    }
+   
